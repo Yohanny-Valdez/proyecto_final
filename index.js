@@ -18,5 +18,5 @@ app.get('/ingresos', function(request,response){
 })
 
 app.listen(3000, function(){
-    console.log('Servidor escuchando en el puerto 3000 exitosamente')
+    console.log('Servidor escuchando en el puerto 3000 de manera correcta')
 })

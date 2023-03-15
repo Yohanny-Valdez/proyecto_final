@@ -10,13 +10,13 @@ function menu() {
       <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="/"></a>
+            <a class="nav-link active text-white" aria-current="page" href="/">Principal</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="/gastos"></a>
+            <a class="nav-link text-white" href="/gastos">Gastos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="/ingresos"></a>
+            <a class="nav-link text-white" href="/ingresos">Ingresos</a>
           </li>
         </ul>
       </div>
