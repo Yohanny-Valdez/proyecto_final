@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="librerias/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/almacen_local.js"></script>
+    <script defer src="js/data.js"></script>
+    <script defer src="js/main.js"></script>
     <script src="js/menu.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/ingresos.js"></script>
+    <script src="js/cuentas.js"></script>
+    <script src="js/validacion.js"></script>
     <title>Finanzas-Ingresos</title>
 </head>
 <body>
@@ -30,13 +34,13 @@
                             </div>
                             <div class="mb-3">
                               <label for="exampleInputPassword1" class="form-label" min="1" >Monto</label>
-                              <input name="amount" type="number" class="form-control" id="exampleInputPassword1" min="0" onkeypress="return soloNumeros(event)" required>
-                              <small>*Este Campo solo recibe numeros</small>
+                              <input name="amount" type="number" class="form-control" id="exampleInputPassword1" min="0" onkeypress="return soloNumeros(event)" required placeholder="Indique el Monto">
+                              <p class="text-danger"><small>*Este Campo solo recibe numeros</small></p>
                             </div> 
                             <div class="mb-3">
-                              <label class="form-label" for="listado-tipos">Fecha</label>
-                              <input name="fecha" type="date" class="form-control" id="exampleCheck1" required>
-                            </div>
+                                <label class="form-label" for="exampleCheck1">Fecha</label>
+                                <input name="fecha" type="date" class="form-control" id="exampleCheck1">
+                              </div>
                             <div class="mb-3">
                               <label class="form-label" for="listado-tipos">Notas</label>
                               <textarea name="notas"
@@ -48,6 +52,7 @@
                             </div>
                             <div class="d-flex justify-content-end">
                                 <button type="submit" class="btn btn-primary">Guardar</button>
+                                <button type="reset" class=" btn btn-secondary">Borrar</button>
                             </div>
                             
                         </form>

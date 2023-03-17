@@ -10,7 +10,7 @@ function menu() {
       <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="/">Principal</a>
+            <a class="nav-link active text-white" aria-current="page" href="/">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="/gastos">Gastos</a>
